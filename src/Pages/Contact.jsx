@@ -23,8 +23,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="container mx-auto p-6 bg-gradient-to-br from-zinc-950  rounded-lg shadow-lg mt-6">
-      <h2 className="text-4xl font-bold text-center mb-8 text-white">Contact <span className='text-orange-600'>Us</span> </h2>
+    <div className="container w-full  p-6 bg-gradient from-zinc-950  rounded-lg shadow-lg mt-6">
+      <h2 className="text-4xl font-bold text-center mb-8 text-white">Contact <span className='text-yellow-600'>Us</span> </h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="space-y-6">
           <div className="flex items-center space-x-4 text-gray-100">
@@ -58,7 +58,7 @@ const Contact = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="w-full px-3 py-2 border-4 border-orange-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
+              className="w-full px-3 py-2 border-4 border-yellow-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
             />
           </div>
           <div>
@@ -69,7 +69,7 @@ const Contact = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full px-3 py-2 border-4 border-orange-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
+              className="w-full px-3 py-2 border-4 border-yellow-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
             />
           </div>
           <div>
@@ -80,7 +80,7 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
               required
               rows="4"
-              className="w-full px-3 py-2 border-4 border-orange-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
+              className="w-full px-3 py-2 border-4 border-yellow-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
             ></textarea>
           </div>
           <button

@@ -3,7 +3,8 @@ import CoffeeAnimation from "../Components/CoffeeAnimation";
 import Header from "../Components/Header";
 import Menu from "./Menu";
 import Contact  from '../Pages/Contact'
-// import Footer from "../Components/Footer";
+import Footer from "../Components/Footer";
+import Reviews from "./Reviews";
 // import Advertisements from "../Components/Advertisements"; // Import the Advertisements component
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <div>
         <Menu />
       </div>
+      <Reviews/>
       <Contact/>
       {/* <Advertisements/> Include the Advertisements component */}
 
@@ -24,8 +26,9 @@ const Home = () => {
 
 
 
-
-    {/* <Footer/> */}
+      <br />
+     <hr />
+    <Footer/>
     </>
   );
 }

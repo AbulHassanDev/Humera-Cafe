@@ -43,13 +43,13 @@ const CoffeeAnimation = () => {
         </h1>
         
         {/* Cafe Description */}
-        <p className="text-xl mb-6">
+        <p className="text-xl mb-6 text-gray-400 font-mono">
           Discover the perfect blend of flavors at Humera Cafe,<br /> where every cup is brewed to perfection. <br /> Enjoy our cozy atmosphere and delicious treats.
         </p>
         
         {/* Reservation Button */}
         <Link to="/reservation">
-          <button className="bg-yellow-500 text-black px-6 py-3 rounded-md hover:bg-yellow-600 transition duration-300">
+          <button className="bg-yellow-500 text-white font-bold px-6 py-3 rounded-md hover:bg-yellow-600 transition duration-300">
             Reserve Now
           </button>
         </Link>
