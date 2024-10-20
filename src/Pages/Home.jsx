@@ -5,6 +5,7 @@ import Menu from "./Menu";
 import Contact  from '../Pages/Contact'
 import Footer from "../Components/Footer";
 import Reviews from "./Reviews";
+import Reservation from "./Reservation";
 // import Advertisements from "../Components/Advertisements"; // Import the Advertisements component
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <div>
         <Menu />
       </div>
+      <Reservation/>
       <Reviews/>
       <Contact/>
       {/* <Advertisements/> Include the Advertisements component */}

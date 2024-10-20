@@ -49,7 +49,7 @@ const CoffeeAnimation = () => {
         
         {/* Reservation Button */}
         <Link to="/reservation">
-          <button className="bg-yellow-500 text-white font-bold px-6 py-3 rounded-md hover:bg-yellow-600 transition duration-300">
+          <button className="bg-yellow-700 text-white font-bold px-6 py-3 rounded-md hover:bg-yellow-900 transition duration-300">
             Reserve Now
           </button>
         </Link>
