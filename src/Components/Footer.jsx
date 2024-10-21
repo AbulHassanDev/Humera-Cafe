@@ -5,6 +5,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { SiTiktok } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaPinterest } from "react-icons/fa";
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -93,7 +94,7 @@ const Footer = () => {
             <Link to="#" className="hover:text-gray-300 transition duration-300">
               <FaXTwitter size={24} className="text-blue-400 hover:text-gray-300" />
             </Link>
-            <Link to="#" className="hover:text-blue-600 transition duration-300">
+            <Link to="Facebook.com/humeracaffe" className="hover:text-blue-600 transition duration-300">
               <RiFacebookCircleLine size={24} className="text-blue-600 hover:text-blue-800" />
             </Link>
             <Link to="#" className="hover:text-purple-700 transition duration-300">
@@ -101,6 +102,9 @@ const Footer = () => {
             </Link>
             <Link to="#" className="hover:text-yellow-300 transition duration-300">
               <SiTiktok size={24} className="text-white hover:text-yellow-300" />
+            </Link>
+            <Link to="https://www.pinterest.com/humeracaffe/" className="hover:text-yellow-300 transition duration-300">
+              <FaPinterest  size={24} className="text-white hover:text-yellow-300" />
             </Link>
           </div>
         </div>

@@ -15,7 +15,7 @@ const ReviewCard = ({ content, name = "Anonymous" }) => (
       <div>
         <h3 className="text-lg font-semibold">{name}</h3>
         <div className="flex text-yellow-500">
-          ★★★★☆
+          ★★★★★
         </div>
       </div>
     </div>

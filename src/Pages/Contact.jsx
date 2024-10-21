@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container w-full  p-6 bg-gradient from-zinc-950  rounded-lg shadow-lg mt-6">
+    <div className="container w-full  p-6 bg-gradient from-zinc-950  rounded-lg shadow-lg ">
       <h2 className="text-4xl font-bold text-center mb-8 text-white">Contact <span className='text-yellow-600'>Us</span> </h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="space-y-6">
