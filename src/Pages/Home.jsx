@@ -2,7 +2,7 @@
 import CoffeeAnimation from "../Components/CoffeeAnimation";
 import Header from "../Components/Header";
 import Menu from "./Menu";
-import Contact  from '../Pages/Contact'
+import Contact from "../Pages/Contact";
 import Footer from "../Components/Footer";
 import Reviews from "./Reviews";
 import Reservation from "./Reservation";
@@ -12,27 +12,27 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="h-screen">
+      <div id="#" className="h-screen">
         <CoffeeAnimation />
       </div>
-      <div>
+      <div id="menu">
         <Menu />
       </div>
-      <Reservation/>
-      <Reviews/>
-      <Contact/>
+      <div id="reservation">
+        <Reservation />
+      </div>
+      <div id="reviews">
+        <Reviews />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       {/* <Advertisements/> Include the Advertisements component */}
-
-
-
-
-
-
       <br />
-     <hr />
-    <Footer/>
+      <hr />
+      <Footer />
     </>
   );
-}
+};
 
 export default Home;
